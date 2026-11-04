@@ -1,0 +1,53 @@
+# === Frontend (React / Node) ===
+# Dependency directory
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# Production build outputs
+frontend/dist/
+frontend/build/
+
+# Local environment secret variables
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Vite / System logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.eslintcache
+
+
+# === Backend (Python) ===
+# Byte-compiled / optimized files
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+
+# Python Virtual Environments
+backend/venv/
+backend/env/
+backend/ENV/
+backend/.venv/
+
+# Environment variables configuration file
+backend/.env
+
+
+# === Operating System / Editor specific files ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+.vscode/*
+!.vscode/extensions.json
+.idea/
